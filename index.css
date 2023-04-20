@@ -9,31 +9,36 @@
 body{
     display: flex;
     align-items: center;
-    background:whitesmoke;
+    background-image: url(/img/iStock-477110708\ \(1\).jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
     font-family: 'Kanit', sans-serif;
-
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
+    box-shadow: 1px black;
 }
 div{
-    margin: 5%;
+    margin: 1rem;
     padding: unset;
     align-items: center;
 }
 .container{
-    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
     font-family: 'Kanit', sans-serif;
     font-size: 25px;
-    background-color: darkgray;
+    background-color: transparent;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-content: flex-start;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid white;
+    filter: drop-shadow(4px 4px 8px white);
+    
 }
 
 .datos{
@@ -42,7 +47,8 @@ div{
     font-size: 12px;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    filter: drop-shadow(4px 4px 8px white);
 }
 
 p.tp{
@@ -52,21 +58,35 @@ p.tp{
 }
 
 .img{
-    max-width: 40%;
+    max-width: 35%;
 }
 
 .nameCity{
     font-family: 'Kanit', sans-serif;
     border: 1rem;
-    width: 100%;
+    border-radius: 3px;
+    width: 50%;
+    margin-top: 1rem ;
     border: none;
     font-size: 1rem;
     margin-bottom: 1px;
 }
 
 .consultar{
+    background-color: transparent;
     font-family: 'Kanit', sans-serif;
-    width: 100%;
+    margin-top: 1px;
+    width: 50%;
     border: none;
+    border-radius: 3px;
     font-size: 1rem;
+    filter: drop-shadow(4px 4px 8px white);
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    flex-direction: column;
+}
+
